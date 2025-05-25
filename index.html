@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Daily Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Daily Planner</h1>
+  </header>
+
+  <main>
+    <section class="add-task">
+      <input type="text" id="new-task-input" placeholder="Enter new task..." />
+      <select id="category-select">
+        <option value="Personal">Personal</option>
+        <option value="Work">Work</option>
+        <option value="Study">Study</option>
+      </select>
+      <button id="add-task-btn">Add</button>
+    </section>
+
+    <section class="search-bar">
+      <input type="text" id="search-input" placeholder="Search tasks..." />
+    </section>
+
+    <section class="task-list" id="task-list">
+      <!-- Tasks will be dynamically inserted here -->
+    </section>
+
+    <div class="buttons">
+      <button id="clear-all">Clear All Tasks</button>
+      <button id="back-to-top">Back to Top</button>
+    </div>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
