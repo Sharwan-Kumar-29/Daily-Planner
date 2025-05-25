@@ -2,6 +2,8 @@
 
 A simple and clean web-based task planner that allows you to manage your daily tasks efficiently. Add, complete, delete, and search tasks — with localStorage persistence and smooth user experience enhancements.
 
+🔗 **Live Demo**: [https://dailpl.netlify.app/](https://dailpl.netlify.app/)
+
 ---
 
 ## 🔧 Features
@@ -43,21 +45,11 @@ my-daily-planner/
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/my-daily-planner.git
-cd my-daily-planner
-```
+1. **Open the Live App**
 
-2. **Open in browser**
-Just open `index.html` in your browser (supports ES6 modules).
+Visit: [https://dailpl.netlify.app/](https://dailpl.netlify.app/)
 
-> **Make sure you're using a local server or VS Code Live Server**, as ES6 modules do not work via `file://` protocol.
-
-3. **[Optional] Deploy**
-Use GitHub Pages to deploy live:
-- Push your repo to GitHub
-- Go to repo settings → Pages → set source to `main` branch → root folder
+> **Make sure you're using a modern browser** to fully support ES6 modules and localStorage.
 
 ---
 
